@@ -1,0 +1,26 @@
+{
+  "name": "@mageswari-27/simple-calculator1",
+  "version": "1.0.0",
+    "scripts": {
+      "build": "unbuild"
+  },
+  "keywords": [],
+  "author": "mageswari",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "creating a simple calculator",
+  "exports": {
+    ".": {
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mageswari7/my_simple_calculator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mageswari7/my_simple_calculator/issues"
+  },
+   "homepage": "https://github.com/mageswari7/my_simple_calculator"
+}
